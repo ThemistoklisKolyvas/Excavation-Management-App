@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3  # Ignore the default SQLite database
+media/
+static/
+
+# Environments
+.env         # Ignore environment variable files
+*.env        # Ignore environment variable files
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE/Editor files (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Secret Keys and credentials
+*.key
+*.pem
